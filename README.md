@@ -36,8 +36,12 @@ The **Pet Care System** is a web application designed to manage pet care operati
 
 ---
 
-## Deployment Instructions
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/pet-care-frontend.git
-   cd pet-care-frontend
+## Steps
+
+### 1. Configure AWS credentials
+
+Run the following command and enter your AWS Access Key, Secret Key, region, and output format:
+
+```bash
+aws configure
+
