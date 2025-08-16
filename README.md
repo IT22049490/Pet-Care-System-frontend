@@ -33,3 +33,17 @@ The Pet Care System is a React-based frontend application. This Terraform setup 
 aws configure
 ```
 2. **Initialize Terraform**
+```bash
+terraform init
+```
+3. **Apply Terraform Configuration**
+```bash
+terraform apply
+```
+
+## Accessing the Application
+Once Terraform finishes provisioning, the frontend will be accessible via:
+```bash
+http://<EC2_PUBLIC_IP>:3000
+```
+
