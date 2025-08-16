@@ -97,7 +97,7 @@ resource "aws_instance" "server" {
     inline = [
       "sudo apt update -y",
       "sudo apt install -y nodejs npm nginx",
-      "git clone https://github.com/IT22049490/Pet-Care-System-frontend.git  ",
+      "git clone https://github.com/IT22049490/Pet-Care-System-frontend.git",
       "cd /home/ubuntu/frontend/home",
       "npm install",
       "npm start",
