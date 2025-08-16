@@ -44,4 +44,23 @@ Run the following command and enter your AWS Access Key, Secret Key, region, and
 
 ```bash
 aws configure
+## 2. Initialize Terraform
 
+Initialize your Terraform working directory by running:
+
+```bash
+terraform init
+
+## 3. Apply Terraform configuration
+
+Apply the Terraform configuration to create resources:
+
+```bash
+terraform apply
+
+## 4. Access the Frontend
+
+Once deployment is complete, access your React app using the EC2 public IP on port 3000:
+
+```bash
+http://<EC2_PUBLIC_IP>:3000
