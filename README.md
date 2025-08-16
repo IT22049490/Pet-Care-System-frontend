@@ -15,5 +15,12 @@ The Pet Care System is a React-based frontend application. This Terraform setup 
 
 ---
 
-## Architecture
+## Prerequisites
+
+- Terraform installed (v1.5+ recommended)
+- AWS CLI configured with Access Key and Secret Key
+- SSH key pair generated (`~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub`)
+- Git installed locally
+
+---
 
