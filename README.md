@@ -35,32 +35,46 @@ The **Pet Care System** is a web application designed to manage pet care operati
    - Runs the frontend application
 
 ---
+## Steps to Deploy Frontend with Terraform
 
-## Steps
+### 1. Configure AWS Credentials
 
-### 1. Configure AWS credentials
+Run the following command and provide your AWS Access Key, Secret Key, default region, and output format:
 
-Run the following command and enter your AWS Access Key, Secret Key, region, and output format:
-
-
+```bash
 aws configure
-## 2. Initialize Terraform
 
-Initialize your Terraform working directory by running:
+2. Initialize Terraform
 
+Initialize your Terraform working directory:
 
 terraform init
 
-## 3. Apply Terraform configuration
+3. Apply Terraform Configuration
 
-Apply the Terraform configuration to create resources:
-
+Apply the Terraform configuration to create the required resources:
 
 terraform apply
 
-## 4. Access the Frontend
 
-Once deployment is complete, access your React app using the EC2 public IP on port 3000:
+Review the resources that will be created.
 
+Confirm by typing yes.
+
+Terraform will create:
+
+VPC
+
+Subnet
+
+Security Group
+
+EC2 instance
+
+Deploy your frontend code
+
+4. Access the Frontend
+
+Once deployment is complete, open your React app in a browser using the EC2 public IP on port 3000:
 
 http://<EC2_PUBLIC_IP>:3000
