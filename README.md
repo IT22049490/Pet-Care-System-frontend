@@ -1,18 +1,4 @@
-# Pet Care System - Frontend Deployment with Terraform
 
-This repository contains the Terraform configuration for deploying the **Pet Care System frontend** on an AWS EC2 instance. The frontend is built using **React.js** and is hosted on an Ubuntu EC2 instance with **Node.js**, **npm**, and **Nginx**.
-
----
-
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Architecture](#architecture)
-- [Deployment Instructions](#deployment-instructions)
-- [Usage](#usage)
-- [Author](#author)
-- [CV Highlight](#cv-highlight)
 
 ---
 
