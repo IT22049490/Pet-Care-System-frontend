@@ -31,3 +31,5 @@ The Pet Care System is a React-based frontend application. This Terraform setup 
 
 ```bash
 aws configure
+---
+2. **Initialize Terraform**
