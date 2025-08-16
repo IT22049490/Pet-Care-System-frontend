@@ -97,7 +97,8 @@ resource "aws_instance" "server" {
     inline = [
       "sudo apt update -y",
       "sudo apt install -y nodejs npm nginx",
-      "cd /home/ubuntu/frontend",
+      "git clone  ",
+      "cd /home/ubuntu/frontend/home",
       "npm install",
       "npm start",
   
